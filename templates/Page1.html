@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/Page1.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Page1.css') }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicina</title>
@@ -12,7 +12,7 @@
         <div style="display: flex;">
         <h1 style="color: white; margin-left: 2rem;">Projekts "Medicina"</h1>
             <div style="margin-left: auto;">
-                <button class="button">Register</button>
+                <a href=register ><button class="button">Register</button></a>
                 <button class="button">login</button>
             </div>
             
@@ -22,10 +22,10 @@
     <div class="background" style="margin-bottom: auto; ">
         <div style="float: right; width: 20%; height: auto;background-color: rgb(36, 36, 36); border-radius:10px;">
             <div class="but" style="margin-left: 30px;;padding-bottom:40px;">
-                <button class="button" style="width: 90%; margin-top: 30px;">Pieteikties</button><br>
-                <button class="button" style="width: 90%;">Parbaudit vai jusu slimnica sadarbojas ar mums</button><br>
+                <a href=pieteikties ><button class="button" style="width: 90%; margin-top: 30px;">Pieteikties</button></a>
+                <a href=manasp ><button class="button" style="width: 90%;">Manas vizītes</button></a>
                 <button class="button" style="width: 90%;">Meklet arstu</button><br>
-                <button class="button" style="width: 90%;">Statistika</button><br>
+                <a href=stat ><button class="button" style="width: 90%;">Statistika</button><br></a>
             </div>
         </div>
 
