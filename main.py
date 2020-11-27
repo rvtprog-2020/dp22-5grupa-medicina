@@ -18,5 +18,8 @@ def manaspieties():
 def register():
     return render_template('SecondPage.html')
 
+@app.route('/mekletarstu')
+def meklet():
+    return render_template('Page4.html')
 
 app.run(host='0.0.0.0', port=80, debug=True)
