@@ -1,0 +1,54 @@
+.button{
+    border-radius: 4px;
+    width: fit-content;
+    outline-style: none;
+    margin-top:.8rem;
+    margin-right: 1rem; 
+    margin-left: auto; 
+    display: block;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: #a72e25;
+}
+
+
+html{
+    height: 100%;
+}
+
+body {
+    background:url(8thpageimage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#container {
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgb(117, 3, 26);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#container2 {
+    padding: 10px 10px;
+    margin: 20px 20px; 
+}
+
+.contEl {
+    padding: 4px 10px;
+    margin: 10px 15px;
+    padding: 5px 10px;
+    background-color: rgba(240, 255, 240, 0.616);
+    border-radius: 16px;
+}
