@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body {
+    background-image: url(4thpageimage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+input {
+    width: 76%;
+    padding: 20px 0;
+    padding-left: 10px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border: 8px solid gray;
+    border-radius: 16px;
+}
+
+#container {
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgb(117, 3, 26);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contEl {
+    padding: 4px 10px;
+    margin: 10px 15px;
+    padding: 5px 10px;
+    background-color: rgba(240, 255, 240, 0.616);
+    border-radius: 16px;
+}
