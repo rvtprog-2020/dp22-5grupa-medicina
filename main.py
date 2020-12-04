@@ -26,4 +26,8 @@ def stat():
 def meklet():
     return render_template('Page4.html')
 
+@app.route('/apraksts')
+def apraksts():
+    return render_template('Page6.html')
+
 app.run(host='0.0.0.0', port=80, debug=True)

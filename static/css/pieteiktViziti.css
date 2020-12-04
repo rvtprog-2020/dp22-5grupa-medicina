@@ -19,11 +19,8 @@ body{
     border-radius: 4px;
     width: fit-content;
     outline-style: none;
-    margin-top:.8rem;
-    margin-right: 1rem; 
-    margin-left: auto; 
     display: block;
-    background-color: #f44336; /* Green */
+    background-color: #f44336;
     border: none;
     color: white;
     padding: 15px 32px;
