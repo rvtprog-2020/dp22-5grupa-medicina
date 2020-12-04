@@ -2,13 +2,17 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('Page1.html')
     
 @app.route('/pieteikties')
 def pieteikties():
     return render_template('pieteiktViziti.html')
+
+@app.route('/login')
+def login():
+    return render_template('ThirdPage.html')
 
 @app.route('/manasp')
 def manaspieties():
@@ -26,4 +30,4 @@ def stat():
 def meklet():
     return render_template('Page4.html')
 
-app.run(host='0.0.0.0', port=80, debug=True)
+app.run(host='0.0.0.0', port=5017, debug=True)
