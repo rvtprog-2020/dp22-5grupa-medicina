@@ -18,6 +18,10 @@ def manaspieties():
 def register():
     return render_template('SecondPage.html')
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
 @app.route('/stat')
 def stat():
     return render_template('Page9.html')
