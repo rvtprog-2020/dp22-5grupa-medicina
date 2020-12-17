@@ -1,8 +1,11 @@
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
-@app.route('/home')
+@app.route('/hello', methods = ['GET'])
+def hello():
+    return 'goodbye'
+
+@app.route('/')
 def home():
     return render_template('Page1.html')
     
