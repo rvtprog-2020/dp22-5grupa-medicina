@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/home')
 def home():
     return render_template('Page1.html')
     
@@ -12,7 +12,7 @@ def pieteikties():
 
 @app.route('/login')
 def login():
-    return render_template('ThirdPage.html')
+    return render_template('login.html')
 
 @app.route('/manasp')
 def manaspieties():
@@ -22,10 +22,6 @@ def manaspieties():
 def register():
     return render_template('SecondPage.html')
 
-@app.route('/login')
-def login():
-    return render_template('login.html')
-
 @app.route('/stat')
 def stat():
     return render_template('Page9.html')
@@ -34,12 +30,8 @@ def stat():
 def meklet():
     return render_template('Page4.html')
 
-<<<<<<< HEAD
-app.run(host='0.0.0.0', port=5017, debug=True)
-=======
 @app.route('/apraksts')
 def apraksts():
     return render_template('Page6.html')
 
-app.run(host='0.0.0.0', port=80, debug=True)
->>>>>>> f1a33258cf62069ca1a283da2732b1c5f995671b
+app.run(host='0.0.0.0', port=5017, debug=True)
